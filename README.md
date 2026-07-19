@@ -14,7 +14,7 @@ The dataset was built and the initial model was trained using the **Google Teach
 
 *The image below shows the model training interface and class distribution within the Teachable Machine platform:*
 
-![Teachable Machine Training Setup](Screenshot 2026-07-19 044223.jpg)
+<img width="2171" height="1137" alt="Screenshot 2026-07-19 044223" src="https://github.com/user-attachments/assets/3f964df1-831c-4b3f-9f1f-baa0435e8479" />
 
 ## ⚙️ Methodology & Tech Stack
 * **Data Collection:** Using isolated background images of the boards to ensure the model focuses purely on the hardware features and is not distracted by background elements.
@@ -29,7 +29,7 @@ The model demonstrated high efficiency in distinguishing between electronic boar
 
 *The image below demonstrates the Python script's success in recognizing an ESP32 board with nearly 90% accuracy:*
 
-![Python Inference Output](Screenshot 2026-07-19 065312.png)
+<img width="548" height="147" alt="Screenshot 2026-07-19 065312" src="https://github.com/user-attachments/assets/3164d4f7-bd43-4074-9d26-fca010996853" />
 
 ## 🛠️ Future Scope
 * Converting the model to **TensorFlow Lite (TFLite)** format to reduce its size and significantly accelerate inference time.
